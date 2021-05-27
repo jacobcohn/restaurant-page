@@ -1,0 +1,5 @@
+const contactContent = () => {
+
+}
+
+export {contactContent}
