@@ -33,24 +33,22 @@ contactTabBtn.id = 'contactTabBtn';
 contactTabBtn.innerHTML = 'Contact';
 contactTabDiv.appendChild(contactTabBtn);
 
-const middle = document.createElement('div');
-middle.id = 'middle';
-container.appendChild(middle);
 const content = document.createElement('div');
 content.id = 'content';
-middle.appendChild(content);
+container.appendChild(content);
+
+const footer = document.createElement('div');
+footer.id = 'footer';
+container.appendChild(footer);
 
 
 
-// homeTabBtn.addEventListener('click', () => {
-//     deleteContent();
-//     homeContent();
-// })
-// menuTabBtn.addEventListener('click', () => {
-//     deleteContent();
-//     menuContent();
-// })
-// contactTabBtn.addEventListener('click', () => {
-//     deleteContent();
-//     contactContent();
-// })
+homeTabBtn.addEventListener('click', () => {
+    homeContent();
+})
+menuTabBtn.addEventListener('click', () => {
+    menuContent();
+})
+contactTabBtn.addEventListener('click', () => {
+    contactContent();
+})
