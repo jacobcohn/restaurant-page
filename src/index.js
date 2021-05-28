@@ -86,6 +86,35 @@ function loadFooter() {
     const footer = document.createElement('div');
     footer.id = 'footer';
 
+    const footerPuppyList = document.createElement('p');
+    footerPuppyList.innerHTML = `
+    Puppy Photos: 
+    <a href="https://unsplash.com/@reskp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jametlene Reskp</a> on <a href="https://unsplash.com/s/photos/puppies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    <a href="https://unsplash.com/@jneumeyer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Judi Neumeyer</a> on <a href="https://unsplash.com/s/photos/puppies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    <a href="https://unsplash.com/@alvannee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alvan Nee</a> on <a href="https://unsplash.com/s/photos/puppies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    <a href="https://unsplash.com/@karsten116?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Karsten Winegeart</a> on <a href="https://unsplash.com/s/photos/puppies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a><br>
+    `;
+    footerPuppyList.classList.toggle('footerList');
+    footer.appendChild(footerPuppyList);
+
+    const footerIceCreamList = document.createElement('p');
+    footerIceCreamList.innerHTML = `
+    Ice Cream Photos:
+    <a href="https://unsplash.com/@rachaelgorjestani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rachael Gorjestani</a> on <a href="https://unsplash.com/s/photos/ice-cream?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    <a href="https://unsplash.com/@sadswim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ian Dooley</a> on <a href="https://unsplash.com/s/photos/ice-cream?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    <a href="https://unsplash.com/@cadence_26?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cadence T</a> on <a href="https://unsplash.com/s/photos/chocolate-ice-cream?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a><br>
+    `;
+    footerIceCreamList.classList.toggle('footerList');
+    footer.appendChild(footerIceCreamList);
+
+    const footerTreasureMapList = document.createElement('p');
+    footerTreasureMapList.innerHTML = `
+    Treasure Map Photo:
+    <a href="https://unsplash.com/@louisnardsophie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sophie Louisnard</a> on <a href="https://unsplash.com/s/photos/treasure-map?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    `;
+    footerTreasureMapList.classList.toggle('footerList');
+    footer.appendChild(footerTreasureMapList);
+
     return footer;
 }
 
