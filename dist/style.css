@@ -72,20 +72,20 @@ button:hover {
     width: 100%;
 }
 
-#homeTitleDiv {
+#TitleDiv {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-#homeDescriptionDiv {
+#DescriptionDiv {
     width: 100%;
     display: flex;
     justify-content: center;
     font-size: 18px;
 }
 
-#homeDescription {
+#Description {
     white-space: pre;
 }
 
@@ -117,4 +117,17 @@ button:hover {
 
 .menuItemDescriptionDiv {
     margin: 20px;
+}
+
+#treasureMapPhotoDiv {
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#treasureMapPhoto {
+    width: 700px;
+    border: solid 3px #393232;
+    border-radius: 20px;
 }
