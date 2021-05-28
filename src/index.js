@@ -42,13 +42,54 @@ footer.id = 'footer';
 container.appendChild(footer);
 
 
+homeTabBtn.classList.toggle('selected');
+homeContent();
 
 homeTabBtn.addEventListener('click', () => {
+    while (content.firstChild) {
+        content.removeChild(content.firstChild);
+    }
+    if (!homeTabBtn.classList.contains('selected')) {
+        homeTabBtn.classList.toggle('selected');
+    }
+    if (menuTabBtn.classList.contains('selected')) {
+        menuTabBtn.classList.toggle('selected');
+    }
+    if (contactTabBtn.classList.contains('selected')) {
+        contactTabBtn.classList.toggle('selected');
+    }
     homeContent();
 })
 menuTabBtn.addEventListener('click', () => {
+    while (content.firstChild) {
+        content.removeChild(content.firstChild);
+    }
+    if (homeTabBtn.classList.contains('selected')) {
+        homeTabBtn.classList.toggle('selected');
+    }
+    if (!menuTabBtn.classList.contains('selected')) {
+        menuTabBtn.classList.toggle('selected');
+    }
+    if (contactTabBtn.classList.contains('selected')) {
+        contactTabBtn.classList.toggle('selected');
+    }
+    menuTabBtn.
     menuContent();
 })
 contactTabBtn.addEventListener('click', () => {
+    while (content.firstChild) {
+        content.removeChild(content.firstChild);
+    }
+    if (homeTabBtn.classList.contains('selected')) {
+        homeTabBtn.classList.toggle('selected');
+    }
+    if (menuTabBtn.classList.contains('selected')) {
+        menuTabBtn.classList.toggle('selected');
+    }
+    if (!contactTabBtn.classList.contains('selected')) {
+        contactTabBtn.classList.toggle('selected');
+    }
     contactContent();
 })
+
+export {content}

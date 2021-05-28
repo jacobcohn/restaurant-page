@@ -1,3 +1,5 @@
+import {content} from './index'
+
 const homeContent = () => {
     
 }
