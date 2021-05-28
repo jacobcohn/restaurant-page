@@ -8,7 +8,6 @@ body {
 #container {
     background: #3a6351;
     width: 100vw;
-    height: 100vh;
 }
 
 #tabs {
@@ -19,7 +18,7 @@ body {
     grid-template-columns: 1fr repeat(3, 150px) 1fr;
 }
 
-button {  /* might need to change this to a class */
+button { 
     background: #f2edd7;
     width: 75%;
     height: 75%;
@@ -62,8 +61,8 @@ button:hover {
 #content {
     background: #f2edd7;
     width: 750px;
-    height: min(700px); /* might be a problem */
     margin: 30px auto 30px auto;
+    padding: 20px;
     border-radius: 30px;
 }
 
@@ -71,4 +70,34 @@ button:hover {
     background: #e48257;
     height: 30px;
     width: 100%;
+}
+
+#titleDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#descriptionDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+#description {
+    white-space: pre;
+}
+
+.puppyPhotoDiv {
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.puppyPhoto {
+    width: 600px;
+    border: solid 3px #393232;
+    border-radius: 20px;
 }
