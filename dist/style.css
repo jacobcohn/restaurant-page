@@ -72,20 +72,20 @@ button:hover {
     width: 100%;
 }
 
-#titleDiv {
+#homeTitleDiv {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-#descriptionDiv {
+#homeDescriptionDiv {
     width: 100%;
     display: flex;
     justify-content: center;
     font-size: 18px;
 }
 
-#description {
+#homeDescription {
     white-space: pre;
 }
 
@@ -100,4 +100,21 @@ button:hover {
     width: 600px;
     border: solid 3px #393232;
     border-radius: 20px;
+}
+
+.menuItemDiv {
+    margin: 20px;
+    border: solid 3px #393232;
+    border-radius: 20px;
+    display: flex;
+}
+
+.iceCreamPhoto {
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.menuItemDescriptionDiv {
+    margin: 20px;
 }

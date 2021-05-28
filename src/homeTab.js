@@ -8,10 +8,10 @@ const homeContent = () => {
 
 function createTitle() {
     const titleDiv = document.createElement('div');
-    titleDiv.id = 'titleDiv';
+    titleDiv.id = 'homeTitleDiv';
 
     const title = document.createElement('h1');
-    title.id = 'title';
+    title.id = 'homeTitle';
     title.innerHTML = 'Ice Cream Shop'
     titleDiv.appendChild(title);
 
@@ -20,10 +20,10 @@ function createTitle() {
 
 function createDescription() {
     const descriptionDiv = document.createElement('div');
-    descriptionDiv.id = 'descriptionDiv';
+    descriptionDiv.id = 'homeDescriptionDiv';
     
     const description = document.createElement('p');
-    description.id = 'description';
+    description.id = 'homeDescription';
     description.innerHTML = 'It\'s an ice cream shop.  There is not much to describe.  Anyways... here are some pictures of puppies!';
     descriptionDiv.appendChild(description);
 
