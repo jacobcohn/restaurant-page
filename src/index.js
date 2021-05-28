@@ -88,3 +88,13 @@ function loadFooter() {
 
     return footer;
 }
+
+/* 
+Images
+Photo by <a href="https://unsplash.com/@reskp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jametlene Reskp</a> on <a href="https://unsplash.com/s/photos/puppies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@jneumeyer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Judi Neumeyer</a> on <a href="https://unsplash.com/s/photos/puppies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@alvannee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alvan Nee</a> on <a href="https://unsplash.com/s/photos/puppies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@karsten116?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Karsten Winegeart</a> on <a href="https://unsplash.com/s/photos/puppies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+*/
